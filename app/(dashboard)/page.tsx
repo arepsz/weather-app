@@ -1,4 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import TestComp from 'src/components'
+import { Card, CardContent, CardHeader, CardTitle } from 'src/components/ui/card'
+
 
 const content = [
   {
@@ -26,6 +28,7 @@ const content = [
 export default function Home() {
   return (
     <div className='bg-slate-900 h-max w-[60%] m-auto rounded-[2rem] bg-opacity-60'>
+        <TestComp />
         <div className='p-8 flex'>
           <div className='flex flex-col w-[35%] h-max'>
             <input 
