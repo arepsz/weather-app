@@ -1,4 +1,6 @@
-import TestComp from 'src/components'
+'use client'
+
+import {TestComp} from 'src/components'
 import { Card, CardContent, CardHeader, CardTitle } from 'src/components/ui/card'
 
 
